@@ -1,0 +1,9 @@
+{
+  "name": "remove-props",
+  "version": "1.0.0",
+  "description": "\"Set of utilities to remove props from a object\"",
+  "main": "src/index.js",
+  "author": "Abhishek Prajapati",
+  "license": "MIT",
+  "private": true
+}
