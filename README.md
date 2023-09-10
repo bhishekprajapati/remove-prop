@@ -85,3 +85,8 @@ removeOwnProp(universe, "galaxies.milkyway.?blackHole"); // => false
 ```
 removeOwnProp(universe, "galaxies.milkyway.?earth"); // => true
 ```
+
+#### ❌ Not Supported
+
+- Cyclic Objects
+- Symbolic keys
