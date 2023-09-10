@@ -56,7 +56,6 @@ exports.removeOwnProp = function (
   )(path);
   const props = parsedPath.props; // all props in a given path
 
-  debugger;
   const targetProp = props[props.length - 1];
   const targetObject = traversePath(obj, props);
 
