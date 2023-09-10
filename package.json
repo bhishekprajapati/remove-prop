@@ -5,5 +5,5 @@
   "main": "src/index.js",
   "author": "Abhishek Prajapati",
   "license": "MIT",
-  "private": true
+  "private": "false"
 }
