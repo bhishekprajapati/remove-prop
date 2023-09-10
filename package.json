@@ -1,8 +1,23 @@
 {
   "name": "remove-prop",
   "version": "1.0.1",
-  "description": "\"Set of utilities to remove props from a object\"",
+  "description": "Remove own properties from a object",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhishekprajapati/remove-prop.git"
+  },
+  "keywords": [
+    "dot",
+    "path",
+    "delete",
+    "remove",
+    "object",
+    "property",
+    "remove-property",
+    "remove-props",
+    "remove-nested-prop"
+  ],
   "author": "Abhishek Prajapati",
   "license": "MIT"
 }
