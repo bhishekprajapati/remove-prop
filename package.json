@@ -1,6 +1,6 @@
 {
   "name": "remove-prop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Remove own properties from a object",
   "main": "src/index.js",
   "repository": {
