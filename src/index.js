@@ -28,16 +28,14 @@ function pathParser(separator, optionalChar) {
 }
 
 function traversePath(obj, props) {
-  let i = 0;
-  let at = obj;
-  if (!at[props[0].name]) return undefined;
-  while (i < props.length - 1) {
-    const prop = props[i];
-    if (!at[prop.name]) return undefined;
-    at = at[prop.name];
-    ++i;
+  if (props.length === 1) return obj[props[0].name] ? obj : undefined;
+  let currObj = obj;
+  for (const [idx, prop] of props.entries()) {
+    if (!currObj[prop.name]) return undefined;
+    if (idx === props.length - 1) break;
+    currObj = currObj[prop.name];
   }
-  return at;
+  return currObj;
 }
 
 exports.removeOwnProp = function (
