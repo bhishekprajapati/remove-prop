@@ -28,7 +28,6 @@ function pathParser(separator, optionalChar) {
 }
 
 function traversePath(obj, props) {
-  debugger;
   let i = 0;
   let at = obj;
   if (!at[props[0].name]) return undefined;

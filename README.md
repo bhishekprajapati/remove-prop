@@ -27,7 +27,7 @@
 #### Import
 
 ```
-import { removeOwnProp } = require("remove-prop");
+const { removeOwnProp } = require("remove-prop");
 ```
 
 #### Example Target Object
