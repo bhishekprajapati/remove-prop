@@ -15,6 +15,7 @@
 - `parserOptions`: takes of object of options
 
 **throws**: `PropMissing` and `ObjectInvalid` errors
+
 **returns** `true` if succeeds otherwise `false`
 
 ### Parser Options
